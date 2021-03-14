@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\SQLFirstConnection\SQLFirstConnection\bin\Debug\SQLFirstConnection.exe.config
+C:\Users\HP\source\repos\SQLFirstConnection\SQLFirstConnection\bin\Debug\SQLFirstConnection.exe
+C:\Users\HP\source\repos\SQLFirstConnection\SQLFirstConnection\bin\Debug\SQLFirstConnection.pdb
+C:\Users\HP\source\repos\SQLFirstConnection\SQLFirstConnection\obj\Debug\SQLFirstConnection.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\SQLFirstConnection\SQLFirstConnection\obj\Debug\SQLFirstConnection.Form1.resources
+C:\Users\HP\source\repos\SQLFirstConnection\SQLFirstConnection\obj\Debug\SQLFirstConnection.Properties.Resources.resources
+C:\Users\HP\source\repos\SQLFirstConnection\SQLFirstConnection\obj\Debug\SQLFirstConnection.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\SQLFirstConnection\SQLFirstConnection\obj\Debug\SQLFirstConnection.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\SQLFirstConnection\SQLFirstConnection\obj\Debug\SQLFirstConnection.exe
+C:\Users\HP\source\repos\SQLFirstConnection\SQLFirstConnection\obj\Debug\SQLFirstConnection.pdb
