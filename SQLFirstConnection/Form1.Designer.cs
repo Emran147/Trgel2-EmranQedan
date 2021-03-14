@@ -50,9 +50,9 @@
             this.lblResult = new System.Windows.Forms.Label();
             this.btnSelect = new System.Windows.Forms.Button();
             this.OrderBy = new System.Windows.Forms.GroupBox();
-            this.rdbBarcode = new System.Windows.Forms.RadioButton();
-            this.rdbPrice = new System.Windows.Forms.RadioButton();
             this.rdbName = new System.Windows.Forms.RadioButton();
+            this.rdbPrice = new System.Windows.Forms.RadioButton();
+            this.rdbBarcode = new System.Windows.Forms.RadioButton();
             this.dgvItems = new System.Windows.Forms.DataGridView();
             this.OrderBy.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvItems)).BeginInit();
@@ -247,18 +247,16 @@
             this.OrderBy.TabStop = false;
             this.OrderBy.Text = "Order By";
             // 
-            // rdbBarcode
+            // rdbName
             // 
-            this.rdbBarcode.AutoSize = true;
-            this.rdbBarcode.Checked = true;
-            this.rdbBarcode.Location = new System.Drawing.Point(7, 20);
-            this.rdbBarcode.Name = "rdbBarcode";
-            this.rdbBarcode.Size = new System.Drawing.Size(66, 17);
-            this.rdbBarcode.TabIndex = 0;
-            this.rdbBarcode.TabStop = true;
-            this.rdbBarcode.Text = "BarCode";
-            this.rdbBarcode.UseVisualStyleBackColor = true;
-            this.rdbBarcode.CheckedChanged += new System.EventHandler(this.rdbBarcode_CheckedChanged);
+            this.rdbName.AutoSize = true;
+            this.rdbName.Location = new System.Drawing.Point(7, 63);
+            this.rdbName.Name = "rdbName";
+            this.rdbName.Size = new System.Drawing.Size(53, 17);
+            this.rdbName.TabIndex = 2;
+            this.rdbName.Text = "Name";
+            this.rdbName.UseVisualStyleBackColor = true;
+            this.rdbName.Click += new System.EventHandler(this.rdbBarcode_CheckedChanged);
             // 
             // rdbPrice
             // 
@@ -271,16 +269,18 @@
             this.rdbPrice.UseVisualStyleBackColor = true;
             this.rdbPrice.Click += new System.EventHandler(this.rdbBarcode_CheckedChanged);
             // 
-            // rdbName
+            // rdbBarcode
             // 
-            this.rdbName.AutoSize = true;
-            this.rdbName.Location = new System.Drawing.Point(7, 63);
-            this.rdbName.Name = "rdbName";
-            this.rdbName.Size = new System.Drawing.Size(53, 17);
-            this.rdbName.TabIndex = 2;
-            this.rdbName.Text = "Name";
-            this.rdbName.UseVisualStyleBackColor = true;
-            this.rdbName.Click += new System.EventHandler(this.rdbBarcode_CheckedChanged);
+            this.rdbBarcode.AutoSize = true;
+            this.rdbBarcode.Checked = true;
+            this.rdbBarcode.Location = new System.Drawing.Point(7, 20);
+            this.rdbBarcode.Name = "rdbBarcode";
+            this.rdbBarcode.Size = new System.Drawing.Size(66, 17);
+            this.rdbBarcode.TabIndex = 0;
+            this.rdbBarcode.TabStop = true;
+            this.rdbBarcode.Text = "BarCode";
+            this.rdbBarcode.UseVisualStyleBackColor = true;
+            this.rdbBarcode.CheckedChanged += new System.EventHandler(this.rdbBarcode_CheckedChanged);
             // 
             // dgvItems
             // 
@@ -295,6 +295,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(952, 491);
             this.Controls.Add(this.dgvItems);
             this.Controls.Add(this.OrderBy);

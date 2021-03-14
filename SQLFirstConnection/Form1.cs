@@ -39,9 +39,9 @@ namespace SQLFirstConnection
         }
         private void ExcNQ(string comTxt)
         {
-            string conSTR = @"Data Source=EQCOMPUTER\SQLEXPRESS;Initial Catalog=FirstRelation;Integrated Security=True";
-            SqlConnection con = new SqlConnection(conSTR);
-            SqlCommand com = new SqlCommand(comTxt, con);
+            string conSTR = @"Data Source=EQCOMPUTER\SQLEXPRESS;Initial Catalog=FirstRelation;Integrated Security=True";//DBמשתנה של נתוני ה 
+            SqlConnection con = new SqlConnection(conSTR);//פעולת החיבור
+            SqlCommand com = new SqlCommand(comTxt, con);//פעולת ההוראה 
             con.Open();
             int result = com.ExecuteNonQuery();
             con.Close();
